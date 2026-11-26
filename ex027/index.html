@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/telas.css">
+    <title>Tela de login</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Login</h1>
+
+            <p style="font-size: 0.8em; margin-top: 5px; margin-bottom: 5px;">Seja bem-vindo(a) noamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+            <form autocomplete="on">
+                <span class="pessoa">
+                    <img src="imagens/pessoa.png">
+                    <input type="email" placeholder="seu e-mail" required autocomplete="email">
+                </span>
+
+                <span class="pessoa">
+                    <img src="imagens/chave.png">
+                    <input type="password" placeholder="seu senha" required >
+                </span>
+
+                <input id="enviar" type="submit" value="Entrar">
+
+                <input id="esqueci" type="submit" value="Esqueci a senha">
+            </form>
+        </article>
+    </main>
+</body>
+</html>
