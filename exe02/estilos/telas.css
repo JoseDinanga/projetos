@@ -24,7 +24,7 @@
     }
 
     input {
-        width: 44.5vw;
+        width: calc(100% - 42px);
     }
 }
 
